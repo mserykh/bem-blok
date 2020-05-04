@@ -88,6 +88,7 @@
 
 .page-block-portfolio {
     margin-top: 30px;
+    justify-content: center;
 }
 
 .block-portfolio {
@@ -95,6 +96,8 @@
     justify-content: space-between;
     flex-wrap: wrap;
     list-style: none;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .block-portfolio img {
