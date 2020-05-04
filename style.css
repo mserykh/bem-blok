@@ -1,5 +1,12 @@
-.page {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+.page {
+    padding: 30px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.page_grey{
+    background-color: #f0f0f0;
 }
 
 .page-header {
@@ -29,6 +36,7 @@
 .block-skills {
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
 }
 
 .box-skills {
@@ -42,4 +50,24 @@
 
 .box-skills__img {
     height: 52px;
+}
+
+.block-numbers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-numbers {
+    width: 24%;
+    text-align: center;
+}
+
+.box-numbers__text {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.box-numbers__text span {
+    display: block;
+    font-size: 36px;
 }
