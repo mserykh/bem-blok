@@ -14,7 +14,7 @@
 }
 
 .title {
-    text-align: 24px;
+    font-size: 24px;
 }
 
 .block {
@@ -24,4 +24,22 @@
 
 .block__text {
     width: 32%;
+}
+
+.block-skills {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-skills {
+    width: 24%;
+    text-align: center;
+}
+
+.box-skills__title {
+    font-size: 24px;
+}
+
+.box-skills__img {
+    height: 52px;
 }
