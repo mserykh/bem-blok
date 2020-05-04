@@ -1,0 +1,16 @@
+.page {
+
+}
+
+.title {
+    text-align: 24px;
+}
+
+.block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block__text {
+    width: 30%;
+}
